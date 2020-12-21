@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_ui"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:id="@+id/nameTextBangla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bensenhand_font"
+        android:textStyle="bold"
+        android:text="মোঃ কিছু মিয়া"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/nameTextEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensanslight"
+        android:textStyle="bold"
+        android:text="Md. Kisu Mia"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/positionTextBangla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bensenhand_font"
+        android:textStyle="bold"
+        android:text="হেড টীচার বায়োলজি"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:textColor="#eb000000"/>
+    <TextView
+        android:id="@+id/positionTextEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensanslight"
+        android:textStyle="bold"
+        android:text="Head Teacher Biology"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:visibility="gone"
+        android:textColor="#e0000000"/>
+
+    <TextView
+        android:id="@+id/phoneNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/opensanslight"
+        android:textStyle="bold"
+        android:text="017123123123"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:padding="15dp"
+        android:elevation="10dp"
+        tools:targetApi="lollipop" />
+
+</LinearLayout>

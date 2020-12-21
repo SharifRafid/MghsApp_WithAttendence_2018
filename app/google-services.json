@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "869956643955",
+    "firebase_url": "https://mghs-app.firebaseio.com",
+    "project_id": "mghs-app",
+    "storage_bucket": "mghs-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:869956643955:android:82523113b070253d",
+        "android_client_info": {
+          "package_name": "developer.unknowns.mghs.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "869956643955-ijs0fejcr7tvjb7732fina4kmffggrbr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "developer.unknowns.mghs.app",
+            "certificate_hash": "8a0c614e2377c31dbfe569f00f32e63868905548"
+          }
+        },
+        {
+          "client_id": "869956643955-4bgum34g21mivn1nm7l164s9on0oglg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNMlheuPq3-GLq8lp4w95vwFlTJ5-KRqg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "869956643955-4bgum34g21mivn1nm7l164s9on0oglg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

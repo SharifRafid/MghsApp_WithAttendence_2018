@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/heading_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Wise Attendence Report"
+        android:textColor="#000"
+        android:fontFamily="@font/opensanslight"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:padding="8dp" />
+    <TextView
+        android:id="@+id/students_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abdul Kalam"
+        android:textColor="#000"
+        android:fontFamily="@font/opensanslight"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textStyle="bold"
+        android:padding="8dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/present_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Present : 20"
+            android:textColor="#44d224"
+            android:fontFamily="@font/opensanslight"
+            android:gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/absent_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Absent : 10"
+            android:textColor="#fc2828"
+            android:fontFamily="@font/opensanslight"
+            android:gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/percentage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Activity : 66%"
+        android:textColor="#2880fc"
+        android:fontFamily="@font/opensanslight"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textStyle="bold"
+        android:padding="8dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="v Details v"
+        android:textColor="#35404e"
+        android:fontFamily="@font/opensanslight"
+        android:gravity="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:textStyle="bold"
+        android:padding="8dp"
+        android:layout_marginTop="8dp"/>
+    <ListView
+        android:id="@+id/list1"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"/>
+</LinearLayout>

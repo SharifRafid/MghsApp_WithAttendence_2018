@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_linear1"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/postTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/bensenhand_font"
+        android:text="Title Post"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/postName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/bensenhand_font"
+        android:text="Title Post"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_below="@+id/postTitle"/>
+    <TextView
+        android:id="@+id/postClass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/bensenhand_font"
+        android:text="Title Post"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_below="@id/postName"/>
+    <TextView
+        android:id="@+id/postAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:fontFamily="@font/bensenhand_font"
+        android:text="Title Post"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:layout_below="@+id/postClass"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/postAddress"
+        android:layout_centerHorizontal="true">
+        <TextView
+            android:id="@+id/postBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="34dp"
+            android:fontFamily="@font/bensenhand_font"
+            android:text="Title Post"
+            android:textColor="#000"
+            android:textSize="18sp" />
+
+    </ScrollView>
+
+
+</RelativeLayout>
